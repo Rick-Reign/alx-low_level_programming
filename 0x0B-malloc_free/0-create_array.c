@@ -16,9 +16,8 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
-}
-
-/*DEFINE VALUES WITH MALLOC*/
+	
+	/*DEFINE VALUES WITH MALLOC*/
 	buffer = (char *) malloc(size * sizeof(c));
 
 	if (buffer == 0)
@@ -36,3 +35,4 @@ char *create_array(unsigned int size, char c)
 
 		return (buffer);
 	}
+}
