@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <std.ib.h>
+#include "main.h"
 
 /**
  * main - function
