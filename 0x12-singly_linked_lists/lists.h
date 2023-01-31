@@ -1,5 +1,5 @@
-#define LINKED
 #ifndef LINKED
+#define LINKED
 
 #include <stddef.h>
 #include <stdlib.h>
